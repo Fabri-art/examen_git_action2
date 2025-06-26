@@ -11,7 +11,8 @@ on:
 env:
   DOCKER_PROJECT_NAME: 'product_2025'
   APP_CONTAINER_NAME: 'product_app_2025'
-  SONAR_HOST_URL: 'http://sonarqube:9000'
+  SONAR_HOST_URL: 'http://localhost:9000'
+
 
 jobs:
   build-and-deploy:
